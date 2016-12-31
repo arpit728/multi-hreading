@@ -1,7 +1,7 @@
 class A{
 
 	public synchronized void d1(B b){
-		System.out.println("Thread 1 starts execution");
+		System.out.println("Thread-1 starts execution");
 		try{
 			Thread.sleep(2000);
 		}
@@ -18,7 +18,7 @@ class A{
 class B{
 
 	public synchronized void d2(A a){
-		System.out.println("Thread 1 starts execution");
+		System.out.println("Thread-2 starts execution");
 		try{
 			Thread.sleep(2000);
 		}
