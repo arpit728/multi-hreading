@@ -32,7 +32,6 @@ class ConsumerThread extends Thread{
 
 	void consume()throws InterruptedException{
 
-
 		synchronized (a)
 		{
 			if (a.count==0) {

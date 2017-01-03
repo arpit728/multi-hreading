@@ -2,7 +2,9 @@ class A{
 
 	public synchronized void d1(B b){
 		System.out.println("Thread-1 starts execution");
-		try{
+		
+		try
+		{
 			Thread.sleep(2000);
 		}
 		catch(InterruptedException e){}
